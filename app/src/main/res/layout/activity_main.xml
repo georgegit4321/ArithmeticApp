@@ -1,0 +1,32 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
+    android:gravity="center"
+    android:background="#50A9EF">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="largest"
+        android:id="@+id/lar"
+        android:background="#95E999"
+        android:layout_margin="10px"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="smallest"
+        android:id="@+id/small"
+        android:layout_margin="10px"
+        android:background="#E6C973"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/evodd"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="10px"
+        android:background="#F87AA5"
+        android:text="check even or odd" />
+
+</LinearLayout>
